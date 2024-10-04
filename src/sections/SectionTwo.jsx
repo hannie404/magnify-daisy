@@ -27,17 +27,17 @@ const data = [
 const SectionTwo = () => {
   return (
     <div>
-      <div className="flex flex-col items-center p-20 relative">
-      <div className="absolute radial-gradient-bg h-4/5 bg-contain w-3/4 h-12 top-0">
-        {/* spiral */}
-      </div>
-        <div className="text-center w-2/5">
+      <div className="flex flex-col items-center md:p-16 p-5 relative radial-gradient-bg ">
+      {/* <div className="absolute radial-gradient-bg h-4/5 bg-contain w-3/4 h-12 top-0">
+
+      </div> */}
+        <div className="text-center md:w-2/5 w-full">
           <img src="/images/title.png" alt="title" />
-          <p className='mt-5'>But before that, please take a moment to review some important reminders and information to help you plan out your day.</p>
+          <p className='mt-5 md:text-base text-xs'>But before that, please take a moment to review some important reminders and information to help you plan out your day.</p>
         </div>
 
         {/* Cards */}
-        <div className="flex w-full flex-wrap justify-center gap-2 md:my-14">
+        <div className="flex w-full flex-wrap justify-center gap-3 md:my-14 my-8">
           {data.map((item, index) => (
             <Card key={index} img={item.img} text={item.text} />
           ))}

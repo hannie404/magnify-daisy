@@ -5,6 +5,7 @@ import './App.css'
 import Hero from './sections/Hero'
 import SectionTwo from './sections/SectionTwo'
 import Program from './sections/Program'
+import { OurSpeakers } from './sections/OurSpeakers'
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
       <Hero />
       <SectionTwo />
       <Program />
+      <div className="bg-white">
+        <OurSpeakers />
+      </div>
     </div>
   )
 }

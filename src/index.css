@@ -3,11 +3,19 @@
 @tailwind utilities;
 
 .radial-gradient-bg {
-  background: radial-gradient(circle at top, #fdebd17b, #feb47b00);
+  background: radial-gradient(circle at top, #fdebd17b, #fdebd128, #00000000, #ffffff00);
+  background-size: contain;
+}
+
+.curl-bg {
+  background: url('/images/curlDesign.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 120%;
 }
 
 .radial-gradient-bg-center {
-  background: radial-gradient(circle, #fdebd17b, #feb47b00);
+  background: radial-gradient(circle, #fdebd17b, #fdebd174, #fdebd100, #ffffff00);
 }
 
 :root {
