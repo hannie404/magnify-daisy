@@ -7,6 +7,11 @@
   background-size: contain;
 }
 
+.radial-gradient-bg-footer {
+  background: radial-gradient(circle at top right, #fdebd17b, #fdebd10f, #00000000, #ffffff00);
+  background-size: contain;
+}
+
 .curl-bg {
   background: url('/images/curlDesign.svg');
   background-position: top center;

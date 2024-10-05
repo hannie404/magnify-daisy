@@ -33,72 +33,87 @@ export const OurSpeakers = () => {
 
   const workshopSpeakers = [
     {
-      "img" : "/images/profilePic.png",
-      "name" : "James Reyes",
-      "position" : "Singer's Workshop",
+      "img": "/images/profilePic.png",
+      "name": "James Reyes",
+      "position": "Singer's Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "JP Ocampo",
-      "position" : "MD Workshop",
+      "img": "/images/profilePic.png",
+      "name": "JP Ocampo",
+      "position": "MD Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Michelle Obligacion",
-      "position" : "Worship Leaders Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Michelle Obligacion",
+      "position": "Worship Leaders Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Budz Apelo",
-      "position" : "Worship Leaders Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Budz Apelo",
+      "position": "Worship Leaders Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Teej Sosa",
-      "position" : "Worship Leaders Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Teej Sosa",
+      "position": "Worship Leaders Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Omar Regalado",
-      "position" : "Worship Leaders Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Omar Regalado",
+      "position": "Worship Leaders Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "DJ Baylon",
-      "position" : "Worship Leaders Workshop",
+      "img": "/images/profilePic.png",
+      "name": "DJ Baylon",
+      "position": "Worship Leaders Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Jayan Salgatar",
-      "position" : "Worship Leaders Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Jayan Salgatar",
+      "position": "Worship Leaders Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Tyrone Ongpauco",
-      "position" : "Guitar Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Tyrone Ongpauco",
+      "position": "Guitar Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Rodney Vidanes",
-      "position" : "Bass Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Rodney Vidanes",
+      "position": "Bass Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Juwil Bulatao",
-      "position" : "Keyboard Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Juwil Bulatao",
+      "position": "Keyboard Workshop",
+    },
+    {
+      "img": "/images/profilePic.png",
+      "name": "Cocoy Degras",
+      "position": "Drums & Percs Workshop",
+    },
+    {
+      "img": "/images/profilePic.png",
+      "name": "Deej Legaspi",
+      "position": "Drums & Percs Workshop",
     },
   ]
 
   const lastTwo = [
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Cocoy Degras",
-      "position" : "Drums & Percs Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Juwil Bulatao",
+      "position": "Keyboard Workshop",
     },
     {
-      "img" : "/images/profilePic.png",
-      "name" : "Deej Legaspi",
-      "position" : "Drums & Percs Workshop",
+      "img": "/images/profilePic.png",
+      "name": "Cocoy Degras",
+      "position": "Drums & Percs Workshop",
+    },
+    {
+      "img": "/images/profilePic.png",
+      "name": "Deej Legaspi",
+      "position": "Drums & Percs Workshop",
     },
   ]
 
@@ -121,22 +136,20 @@ export const OurSpeakers = () => {
         </div>
       </div>
 
+      <div className='absolute md:bg-none curl-bg w-full h-screen left-0'>
+      </div >
       {/* Workshop Speakers */}
       <img src="/images/workshopSpeaker.png" alt="Our Speaker" className='md:w-2/5 ' />
 
       {/* Speakers */}
       <div className="flex w-full flex-wrap justify-center gap-3 md:my-14 my-5">
-        <div className="md:w-5/6 md:gap-10 gap-5 flex justify-center flex-wrap">
+        <div className="md:w-full md:gap-10 gap-5 flex justify-center flex-wrap">
           {workshopSpeakers.map((item, index) => (
             <Profile key={index} img={item.img} name={item.name} program={item.position} />
           ))}
         </div>
-        <div className="md:w-4/6 md:mt-5 gap-10 flex justify-center flex-wrap">
-          {lastTwo.map((item, index) => (
-            <Profile key={index} img={item.img} name={item.name} program={item.position} />
-          ))}
-        </div>
       </div>
+
     </div>
   )
 }
