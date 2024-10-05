@@ -99,24 +99,6 @@ export const OurSpeakers = () => {
     },
   ]
 
-  const lastTwo = [
-    {
-      "img": "/images/profilePic.png",
-      "name": "Juwil Bulatao",
-      "position": "Keyboard Workshop",
-    },
-    {
-      "img": "/images/profilePic.png",
-      "name": "Cocoy Degras",
-      "position": "Drums & Percs Workshop",
-    },
-    {
-      "img": "/images/profilePic.png",
-      "name": "Deej Legaspi",
-      "position": "Drums & Percs Workshop",
-    },
-  ]
-
   return (
     <div id='speakers' className='relative curl-bg md:p-40 p-10'>
       <div className="md:w-2/12 md:h-72 bg-[#34301D] p-10 absolute top-0 right-0 rounded-bl-full flex justify-center items-center md:block hidden">
@@ -129,7 +111,7 @@ export const OurSpeakers = () => {
       {/* Speakers */}
       <h1 className='text-[#34301D] font-semibold md:text-4xl text-2xl'>PLENARY SPEAKERS</h1>
       <div className="flex w-full flex-wrap justify-center gap-3 md:my-14 my-10">
-        <div className="md:w-4/6 md:gap-10 gap-5 flex justify-center flex-wrap">
+        <div className="md:w-full md:gap-10 gap-5 flex justify-center flex-wrap">
           {speakers.map((item, index) => (
             <Profile key={index} img={item.img} name={item.name} program={item.position} />
           ))}
