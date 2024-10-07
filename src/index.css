@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#home {
+  transition: background-image 0.5s ease-in-out;
+}
+
 .radial-gradient-bg {
   background: radial-gradient(circle at top, #fdebd17b, #fdebd128, #00000000, #ffffff00);
   background-size: contain;

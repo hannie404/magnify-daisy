@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-center">
           <a className="btn btn-ghost text-xl">
-            <img src="/public/images/logo.svg" alt="logo" className="w-32" />
+            <img src="/images/logo.svg" alt="Magnify" className="w-32" />
           </a>
         </div>
         {/* <div className="navbar-end lg:hidden">
