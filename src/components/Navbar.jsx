@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -37,15 +38,24 @@ const Navbar = () => {
             <img src="/public/images/logo.svg" alt="logo" className="w-32" />
           </a>
         </div>
+        {/* <div className="navbar-end lg:hidden">
+          <a href="https://magnify2024.conscor.com/reg.html"><input type="button" value="Register" className="bg-white p-1 px-3 rounded-xl text-sm text-[#1E1E1E] hover:text-white" /></a>
+        </div> */}
         <div className="navbar-end lg:hidden">
-          <input type="button" value="Register" className="bg-white p-1 px-3 rounded-xl text-sm text-[#1E1E1E] hover:text-white" />
+          <a href="https://magnify2024.conscor.com/reg.html" className="bg-white p-1 px-3 rounded-xl text-sm text-[#1E1E1E] hover:text-white">
+            Register
+          </a>
         </div>
         <div className="hidden lg:flex flex-1 justify-end">
           <ul className="menu menu-horizontal px-1">
             <li><a href="#home" className="text-white hover:bg-light hover:text-white">Home</a></li>
             <li><a href="#program" className="text-white hover:bg-light hover:text-white">Program</a></li>
             <li><a href="#speakers" className="text-white hover:bg-light hover:text-white">Speakers</a></li>
-            <li><input type="button" value="Register" className="bg-white text-[#1E1E1E] hover:text-white" /></li>
+            <li>
+              <a href="https://magnify2024.conscor.com/reg.html" className="bg-white text-[#1E1E1E] hover:text-white">
+                Register
+              </a>
+            </li>
           </ul>
         </div>
       </div>
