@@ -12,11 +12,11 @@ const data = [
   },
   {
     img: '/images/3.svg',
-    text: 'Wristbands will be color coded based on the workshop you registered for. Please wear your wristbands for the entire duration of the event. NO wristband no entry.'
+    text: 'Wristbands will be color-coded based on the workshop you registered for. Please wear your wristbands for the entire duration of the event. NO wristband, no entry.'
   },
   {
     img: '/images/4.svg',
-    text: 'Doors to the plenary venue opens at 8:00 AM. Seating will be on a first-come, first-served basis.'
+    text: 'Doors to the plenary venue open at 8:00 AM. Seating will be on a first-come, first-served basis.'
   },
   {
     img: '/images/5.svg',

@@ -45,7 +45,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="w-screen h-screen bg-cover bg-center transition-opacity duration-500"
+      className="w-screen h-screen bg-cover bg-left transition-opacity duration-500"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <Navbar />
@@ -57,7 +57,7 @@ const Hero = () => {
         <img src="/images/logo.svg" alt="magnify" className="md:w-2/5 w-3/5 mt-36" />
         <h2 className="md:text-3xl text-base md:my-14">Ascribe to the Lord the Glory Due His Name</h2>
         <div className="flex flex-col text-center md:text-2xl text-xs">
-          October 26, 2024 | 8:00 AM - 4:00 PM <br />
+          October 26, 2024 | 8:00 AM - 4:30 PM <br />
           CCF Center, New Building
         </div>
       </div>
