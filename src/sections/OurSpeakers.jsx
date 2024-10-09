@@ -5,7 +5,7 @@ export const OurSpeakers = () => {
 
   const speakers = [
     {
-      "img": "/images/profiles/profilePic.png",
+      "img": "/images/profiles/PastorRicky.png",
       "name": "Pastor Ricky Sarthou",
       "position": "Plenary 1"
     },
@@ -25,7 +25,7 @@ export const OurSpeakers = () => {
       "position": "Plenary 3: Song List Creation"
     },
     {
-      "img": "/images/profiles/profilePic.png",
+      "img": "/images/profiles/Kahlil.png",
       "name": "Kahlil Refuerzo",
       "position": "Plenary 4: Ascribe to the Lord"
     },
@@ -73,7 +73,7 @@ export const OurSpeakers = () => {
       "position": "Worship Leaders Workshop",
     },
     {
-      "img": "/images/profiles/profilePic.png",
+      "img": "/images/profiles/Tyrone.png",
       "name": "Tyrone Ongpauco",
       "position": "Guitar Workshop",
     },

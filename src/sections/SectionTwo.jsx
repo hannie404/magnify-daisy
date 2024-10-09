@@ -4,23 +4,23 @@ import Card from '../components/Card'
 const data = [
   {
     img: '/images/1.svg',
-    text: 'Registration opens at 8:00AM at the Ground Floor Lobby, CCF Main Building, in front of the Bookstore. Register to claim your conference wristband.'
+    text: 'Registration opens at 8:00 AM at the LAI building, Ground Floor (CCF Annex). Register to claim your conference wristband.'
   },
   {
     img: '/images/2.svg',
-    text: 'Wristbands will be color coded based on the workshop you registered for. Please wear your wristbands for the entire duration of event. No wristband no entry.'
+    text: 'Use your QR code to register and claim your meal. Complimentary snacks will also be available.'
   },
   {
     img: '/images/3.svg',
-    text: 'Nearby meal options: CCF Cafeteria, restaurants in Tiendesitas'
+    text: 'Wristbands will be color coded based on the workshop you registered for. Please wear your wristbands for the entire duration of the event. NO wristband no entry.'
   },
   {
     img: '/images/4.svg',
-    text: 'Parking is available at the CCF Center. Please take the WEST elevator or stairs to the Ground Floor Lobby.'
+    text: 'Doors to the plenary venue opens at 8:00 AM. Seating will be on a first-come, first-served basis.'
   },
   {
     img: '/images/5.svg',
-    text: 'Doors to the plenary venue opens at 12:00 NN. Seating will be on a first come first served basis'
+    text: "Join us for a special night of worship during the Saturday Night Service with songs from Exalt Worship's second album at 5:00 PM at the 2F Worship Hall."
   },
 ]
 
