@@ -21,8 +21,8 @@ const Hero = () => {
     >
       <Navbar />
       <div className="flex flex-col justify-center items-center">
-        <div className="flex gap-4 mt-20">
-          <img src="/images/cofmediaWhite.png" alt="cofmediaWhites" className="md:w-28 w-20" />
+        <div className="flex gap-4 mt-20 items-center">
+          <img src="/images/cofmediaWhite.png" alt="cofmediaWhites" className="md:w-28 w-20 h-fit" />
           <img src="/images/exaltWorshipWhite.png" alt="cofmediaWhites" className="md:w-28 w-20" />
         </div>
         <img src="/images/logo.svg" alt="magnify" className="md:w-2/5 w-3/5 mt-36" />
