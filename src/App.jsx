@@ -13,8 +13,10 @@ function App() {
   return (
     <div className='w-screen'>
       <Hero />
-      <SectionTwo />
-      <Program />
+      <div className="bg-[#34301D] text-white">
+        <SectionTwo />
+        <Program />
+      </div>
       <div className="bg-white">
         <OurSpeakers />
       </div>

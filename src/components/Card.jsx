@@ -6,7 +6,7 @@ const Card = ({ img, text }) => {
       <div className="w-1/6 flex justify-center">
       <img src={img} alt="icon" className='w-7 h-12' />
       </div>
-      <p className='w-5/6 md:text-base text-xs'>{text}</p>
+      <p className='w-5/6 md:text-base text-xs text-white'>{text}</p>
     </div>
   )
 }

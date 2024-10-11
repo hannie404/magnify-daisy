@@ -33,7 +33,7 @@ const SectionTwo = () => {
       </div> */}
         <div className="text-center md:w-2/5 w-full">
           <img src="/images/title.png" alt="title" />
-          <p className='mt-5 md:text-base text-xs'>But before that, please take a moment to review some important reminders and information to help you plan out your day.</p>
+          <p className='mt-5 md:text-base text-xs text-white'>But before that, please take a moment to review some important reminders and information to help you plan out your day.</p>
         </div>
 
         {/* Cards */}
