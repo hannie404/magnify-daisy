@@ -4,7 +4,7 @@ import Card from '../components/Card'
 const data = [
   {
     img: '/images/1.svg',
-    text: 'Registration opens at 8:00 AM at the LAI building, Ground Floor (CCF Annex). Register to claim your conference wristband.'
+    text: 'Registration opens at 8:00 AM at the LAI Building, Ground Floor (CCF Annex). Register to claim your conference wristband.'
   },
   {
     img: '/images/2.svg',

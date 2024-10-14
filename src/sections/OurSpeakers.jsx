@@ -7,7 +7,7 @@ export const OurSpeakers = () => {
     {
       "img": "/images/profiles/PastorRicky.png",
       "name": "Pastor Ricky Sarthou",
-      "position": "Plenary 1"
+      "position": 'Plenary 1: Two Questions <br /> that Demand an Answer'
     },
     {
       "img": "/images/profiles/Paul.png",
@@ -23,6 +23,11 @@ export const OurSpeakers = () => {
       "img": "/images/profiles/DJ.png",
       "name": "DJ Baylon",
       "position": "Plenary 3: Song List Creation"
+    },
+    {
+      "img": "/images/profiles/Budz.png",
+      "name": "Budz Apelo",
+      "position": "Plenary 3: Song List Creation",
     },
     {
       "img": "/images/profiles/Kahlil.png",

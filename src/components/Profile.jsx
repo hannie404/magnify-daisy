@@ -7,7 +7,7 @@ const Profile = ({img, name, program}) => {
         <img src={img} alt="profile" className='rounded-full' />
       </div>
       <h2 className='text-[#34301D] font-semibold md:text-xl text-xs'>{name}</h2>
-      <p className='text-[#34301D] md:text-base text-xs -mt-1'>{program}</p>
+      <p className='text-[#34301D] md:text-base text-xs -mt-1 break-words' dangerouslySetInnerHTML={{ __html: program }}></p>
     </div>
   )
 }
