@@ -17,17 +17,17 @@ export const OurSpeakers = () => {
     {
       "img": "/images/profiles/Omar.png",
       "name": "Omar Regalado",
-      "position": "Plenary 3: Song List Creation"
+      "position": "Plenary 3: The Discipline of  <br /> Crafting the Worship Lineup"
     },
     {
       "img": "/images/profiles/DJ.png",
       "name": "DJ Baylon",
-      "position": "Plenary 3: Song List Creation"
+      "position": "Plenary 3: The Discipline of  <br /> Crafting the Worship Lineup"
     },
     {
       "img": "/images/profiles/Budz.png",
       "name": "Budz Apelo",
-      "position": "Plenary 3: Song List Creation",
+      "position": "Plenary 3: The Discipline of  <br /> Crafting the Worship Lineup",
     },
     {
       "img": "/images/profiles/Kahlil.png",
