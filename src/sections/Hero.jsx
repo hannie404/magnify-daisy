@@ -29,7 +29,7 @@ const Hero = () => {
         <h2 className="md:text-3xl text-base md:my-14 text-white">Ascribe to the Lord the Glory Due His Name</h2>
         <div className="flex flex-col text-center md:text-2xl text-xs text-white">
           October 26, 2024 | 8:00 AM - 4:30 PM <br />
-          CCF Center, New Building
+          CCF Center, LAI Building (Annex)
         </div>
       </div>
     </div>

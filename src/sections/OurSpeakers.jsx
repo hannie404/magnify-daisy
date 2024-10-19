@@ -32,7 +32,7 @@ export const OurSpeakers = () => {
     {
       "img": "/images/profiles/Kahlil.png",
       "name": "Kahlil Refuerzo",
-      "position": "Plenary 4: Ascribe to the Lord"
+      "position": "Plenary 4: Ascribe to the <br/> Lord the Glory Due His Name"
     },
   ]
 

@@ -10,9 +10,18 @@
   background: radial-gradient(circle at top, #fdebd17b, #fdebd128, #00000000, #ffffff00);
   background-size: contain;
 }
+.radial-gradient-bg-ad {
+  background: radial-gradient(circle at top left, #fdebd17b, #fdebd128, #00000000, #ffffff00);
+  background-size: contain;
+}
+
+.radial-gradient-bg {
+  background: radial-gradient(circle at top, #fdebd17b, #fdebd128, #00000000, #ffffff00);
+  background-size: contain;
+}
 
 .radial-gradient-bg-footer {
-  background: radial-gradient(circle at top right, #fdebd17b, #fdebd10f, #00000000, #ffffff00);
+  background: radial-gradient(circle at bottom right, #fdebd17b, #fdebd10f, #00000000, #ffffff00);
   background-size: contain;
 }
 

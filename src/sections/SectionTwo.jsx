@@ -28,9 +28,6 @@ const SectionTwo = () => {
   return (
     <div>
       <div className="flex flex-col items-center md:p-16 p-5 relative radial-gradient-bg ">
-      {/* <div className="absolute radial-gradient-bg h-4/5 bg-contain w-3/4 h-12 top-0">
-
-      </div> */}
         <div className="text-center md:w-2/5 w-full">
           <img src="/images/title.png" alt="title" />
           <p className='mt-5 md:text-base text-xs text-white'>But before that, please take a moment to review some important reminders and information to help you plan out your day.</p>
