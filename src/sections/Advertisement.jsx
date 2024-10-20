@@ -20,7 +20,7 @@ const Advertisement = () => {
   }, [carouselImages.length]);
 
   return (
-    <div className='flex flex-col justify-between'>
+    <div className='bg-[#34301D] flex flex-col justify-between'>
       <div className="bg-white text-center text-[#34301D] md:text-3xl font-bold  md:px-40 md:pb-10 md:p-0 p-5">
         Check out our limited edition Exalt Worship merch at our Merch booth located at the 2F LAI Building on October 26, 2024. Payment mode is cash only.
       </div>
