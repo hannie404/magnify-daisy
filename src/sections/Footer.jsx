@@ -14,16 +14,16 @@ const Footer = () => {
             <h2 className='font-semibold text-white md:text-base text-xs text-left'>FOLLOW US FOR MORE UPDATES</h2>
             <div className="flex flex-col md:gap-2 gap-0">
               <div className="flex md:gap-4 gap-2">
-                <img src="/images/fb.svg" alt="Facebook" className='md:w-auto w-4' />
+                <img src="/images/fb.svg" target="_blank" alt="Facebook" className='md:w-auto w-4' />
                 <p><a href="https://www.facebook.com/ccfexaltworship" className='text-white md:text-base text-xs hover:text-gray-400'>/ccfexaltworship</a></p>
               </div>
               <div className="flex md:gap-4 gap-2">
-                <img src="/images/ig.svg" alt="Instagram" className='md:w-auto w-4' />
+                <img src="/images/ig.svg" target="_blank" alt="Instagram" className='md:w-auto w-4' />
                 <p><a href="https://www.instagram.com/ccfexaltworship" className='text-white md:text-base text-xs hover:text-gray-400'>/ccfexaltworship</a></p>
               </div>
               <div className="flex md:gap-4 gap-2">
-                <img src="/images/yt.svg" alt="YouTube" className='md:w-auto w-4' />
-                <p><a href="https://www.youtube.com/ccfexaltworship" className='text-white md:text-base text-xs hover:text-gray-400'>@ccfexaltworship</a></p>
+                <img src="/images/yt.svg" target="_blank" alt="YouTube" className='md:w-auto w-4' />
+                <p><a href="https://www.youtube.com/ccfexaltworship"  className='text-white md:text-base text-xs hover:text-gray-400'>@ccfexaltworship</a></p>
               </div>
             </div>
           </div>
