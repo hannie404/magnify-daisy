@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Footer from './Footer';
 
 const Advertisement = () => {
   const carouselImages = [
@@ -53,11 +54,14 @@ const Advertisement = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center md:p-16 p-5 relative radial-gradient-bg-ad">
-        <div className="text-center md:w-screen md:px-40">
-          <img src="/images/OneLoveAlbum.PNG" alt="program" className='w-full rounded-2xl border-2 border-[#fdebd17b]' />
+      <div className="flex flex-col items-center md:p-16 md:pb-0 p-5 pb-0 relative radial-gradient-bg-ad">
+        <div className="radial-gradient-bg-footer">
+          <div className="text-center md:w-screen md:px-40 px-5">
+            <img src="/images/OneLoveAlbum.PNG" alt="program" className='w-full rounded-2xl border-2 border-[#fdebd17b]' />
+          </div>
+          <h1 className='md:text-3xl text-base text-white mt-5'>This is a <span className='font-bold'>FREE EVENT!</span> See you there!</h1>
+          <Footer />
         </div>
-        <h1 className='md:text-3xl text-base text-white mt-5'>This is a <span className='font-bold'>FREE EVENT!</span> See you there!</h1>
       </div>
     </div>
   );

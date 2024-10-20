@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-glass backdrop-blur-2xl'>
+    <div className='bg-glass backdrop-blur-2xl w-screen md:mt-10 mt-5'>
       <div className="md:p-10 p-5">
       {/* <div className="radial-gradient-bg md:p-10 p-5"> */}
         <div className="flex justify-center items-center">

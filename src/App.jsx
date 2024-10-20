@@ -21,9 +21,9 @@ function App() {
       <div className="bg-white">
         <OurSpeakers />
       </div>
-      <div className="bg-[#34301D] radial-gradient-bg-footer">
+      <div className="bg-[#34301D]">
         <Advertisement />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   )
