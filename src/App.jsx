@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='w-screen'>
       <Hero />
-      <div className="c text-white">
+      <div className="bg-[#34301D] text-white">
         <SectionTwo />
         <Program />
       </div>

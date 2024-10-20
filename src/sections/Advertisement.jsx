@@ -22,7 +22,7 @@ const Advertisement = () => {
   return (
     <div className='flex flex-col justify-between'>
       <div className="bg-white text-center text-[#34301D] md:text-3xl font-bold  md:px-40 md:pb-10 md:p-0 p-5">
-        Check out our limited edition Exalt Worship merch at our Merch booth located at the 2F New Building on October 26, 2024. Payment mode is cash only.
+        Check out our limited edition Exalt Worship merch at our Merch booth located at the 2F LAI Building on October 26, 2024. Payment mode is cash only.
       </div>
       <img src="/images/FinalMerchPosting.png" alt="Advertisement" className="w-full md:w-auto md:block hidden" />
 
@@ -57,6 +57,7 @@ const Advertisement = () => {
         <div className="text-center md:w-screen md:px-40">
           <img src="/images/OneLoveAlbum.PNG" alt="program" className='w-full rounded-2xl border-2 border-[#fdebd17b]' />
         </div>
+        <h1 className='md:text-3xl text-base text-white mt-5'>This is a <span className='font-bold'>FREE EVENT!</span> See you there!</h1>
       </div>
     </div>
   );
